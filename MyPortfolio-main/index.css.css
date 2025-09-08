@@ -1,0 +1,286 @@
+
+*{
+    flex-wrap: wrap;
+    font-family:monospace;
+    font-size: 14px;
+    max-width: 100%;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    width: fit-content;
+    background-size: cover;
+    width: 100%;
+}
+.last{
+    -webkit-text-fill-color:rgb(255, 255, 255);
+    font-style:oblique;
+}
+#container{
+    border-radius: 10px;
+}
+#container>ul{
+    color: rgb(0, 0, 0);
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-decoration: none;
+}
+ header{
+    gap: 30%;
+    background-image: url(./drago.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    /* width:100%; */
+ }
+#container>ul>li{
+    padding: 10px 40px;
+    letter-spacing: 2px;
+    cursor:pointer;
+    color:rgb(255, 255, 255);
+    animation: new 1s linear;
+    transition: 0.1s;
+    margin: 10px 0px 0px 0px;
+}
+#container>ul>#id4{
+    padding: 10px 40px;
+    letter-spacing: 2px;
+    cursor:pointer;
+    color:rgb(255, 255, 255);
+    animation: new 1s linear;
+    animation: slide 1s linear  infinite;
+    transition: 0.1s;
+    margin: 10px 0px 0px 0px;
+}
+#container>ul>li:hover{
+    font-weight: 10px;
+    color: rgb(88, 158, 182);
+    /* font-style:oblique; */
+    background: linear-gradient(to border-bottom,rgb(34, 25, 25), rgb(255, 255, 255));
+    /* box-shadow:1px 1px 15px 2px rgb(255, 255, 255); */
+    border-radius: 5px;
+    border-bottom: 5px;
+}
+@keyframes slide {
+    50%{
+    color:aqua;
+}
+100%{
+    color:red;
+}
+}
+#career{
+    color:rgb(0, 0, 0);
+    text-indent: 5px;
+    transition: 1s;
+    width: 100%;
+}
+
+#career>h1{
+    padding: 1% 40%;
+    font-weight: 500px;
+    font-style:oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:tomato;
+    transition: 1s linear;
+    
+}
+#career>h1:hover{
+    text-decoration-color:blue;
+}
+ #career>#about{
+    padding: 12% 15%;
+    color: skyblue;
+} 
+.about{
+    text-indent: 1px;
+    font-stretch: extra-condensed;
+    font-style:oblique;
+    padding: 0% 5% 2% 5%;
+    color: rgb(255, 235, 235);
+}
+#my>#kavi{
+    width:150px;
+    border-radius: 10px;
+    transition: 0.1s;
+    background-color: blue;
+}
+#my{
+    display: flex;
+    gap: 65%;
+    background:linear-gradient(to top,rgb(27, 25, 25),black) ;
+    margin: 0px 135px 0px 0px;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 20px;
+    border-radius: 20px;
+    transition: 1s;
+    width: 95%;
+}
+#my>img{
+    width:200px;
+    border-radius: 10px;
+    transition: 0.1s;
+    height: 30vh;
+}
+
+#my>#home{
+    margin: 2px 135px 0px 34% ;
+    height: 29vh;
+    width: 450px;
+    overflow: hidden;
+    font-style: oblique;
+    position:absolute;
+}
+#my>#kavi:hover{
+    transform: scale(1.1);
+}
+#my>#my1:hover{
+    transform: scale(1.1);
+}
+
+#details{
+    display: flex;
+    gap: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    padding: 5px 0% 0px 30%;
+    width:100%;
+}
+#details>button{
+    height: 6vh;
+    border: 1px white;
+    border-radius: 10px;
+    cursor:pointer;
+    background-color:rgba(28, 28, 41, 0.638);
+    font-family: monospace;
+    font-style: oblique;
+    width: 10%;
+    text-indent: 5px;
+ }
+button{
+    transition: 1s;
+    cursor:grab;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.51);
+} 
+button:hover{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to left, rgba(0, 0, 255, 0.283),skyblue);     
+
+}
+#icon{
+    margin: 0px 135px 0px 41%;
+    display: flex;
+    gap: 6%;
+}
+a>img{
+    margin: 10px 0px 2px 0px;
+    border-radius: 50px;
+    width: 40px;
+    transition: 1s;
+}
+#myimage{
+    padding: 0% 5% 2% 5%;
+    }
+#para>p{
+    background-color: black;
+    height: 26vh;
+    width: 50%;
+    margin: -230px 0px 0px 165px;
+}
+header>#logo>.log{
+    margin-top: 5px 22px 0px 12px;
+    width: 70px ;
+    background-color: blue;
+    height: 70px;
+    /* animation: rotate 2s linear; */
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    transition: 1s; 
+    transform: rotate(2deg); 
+}
+/* @keyframes rotate{
+    from{
+        margin:0px 0px 0px 150px;
+    }
+    to{ 
+        margin-top: 5px 22px 0px 12px;
+       
+    }
+} */
+footer{
+    margin-bottom: 0px;
+    opacity: 1;
+    font-style:oblique;
+    max-width:100%;
+    color: white;
+}
+    header>#logo>.log:hover{
+    transform: rotate(360deg);
+}
+@media only  screen and (max-width:300px){    
+    #my>#home{
+        margin: 186px 180px 0px -20px ;
+        height: 29vh;
+        width: 340px;
+    }
+    header>#logo>.log{
+        margin-left: 55%;
+    }
+    #container{
+    width: 100%;
+    }
+    #details{
+        color: black;
+       margin: 0px 0px 0px -75px; 
+    }
+    #details>button{
+        color: rgb(255, 255, 255);
+        gap: 1px;
+        overflow:hidden;
+        width: 40%;
+        height: 6vh;
+    }
+    #icon{
+        display: flex;
+        margin: 0px 0px 0px 33px;
+    }
+    #my{
+        margin: 12px 0px 0px 0px;
+    }
+    #my>img{
+        margin:-20px 0px 0px 0px ;
+        height: 29vh;
+        width: 350px;
+    }
+    #my>#kavi{
+        margin: 10px 10px 0px 260px;
+        height: 30vh;
+    }
+    #para>p{
+        width: 83%;
+        height: 34vh;
+        margin: 14% 0px 0px 0px;
+    }
+    #demo>#demo1>#demo2>#demo3{
+        padding: 2px 0px 0px 0px;
+    }
+    footer{
+        color: black;
+        margin: 150px 5px 0px 0px;
+    }
+    #home{
+        margin-left: 10px;
+    }
+    body{
+        background-image: url(./mobile.jpg);
+    }
+}
